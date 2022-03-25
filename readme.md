@@ -42,35 +42,21 @@ ssh kubenode01
 Following are some tasks you can use for training. During the exam you can access the kubernetes documentation (https://kubernetes.io/docs/home/), so try to execute the tasks using only the documentation (except for installing the container runtime and the network plugin).
 
 
-[ ] - Create a kubernetes clustes with kubeadm using all machines (kubernetes 1.20)
-
-[ ] - Create a deployment called nginx
-
-[ ] - Backup de etcd cluster
-
-[ ] - Create a deployment called redis
-
-[ ] - Restore the backup of nginx
-
-[ ] - Create a new user that can manipulate pods, deployments and service in the namespace dev
-
-[ ] - See the logs of the kubelet service
-
-[ ] - Upgrade the cluster to kubernetes 1.21 (master)
-
-[ ] - Upgrade the cluster to kubernetes 1.21 (workers)
-
-[ ] - Create a pod with a persisten volume of the type hostPath, using claims
-
-[ ] - Create a nginx pod with a service exposing the port 80 of the pod to the nodeport 32180
-
-[ ] - Install a ingress controller
-
-[ ] - Create an ingress host for the nginx pod/service
-
-[ ] - Configure a networkpolicy to allow only traffic from the ingress controller to the nginx pod
-
-[ ] - Configure a networkpolicy to block traffic out of an pod to the internet
+- Create a kubernetes clustes with kubeadm using all machines (kubernetes 1.20)
+- Create a deployment called nginx
+- Backup de etcd cluster
+- Create a deployment called redis
+- Restore the backup of nginx
+- Create a new user that can manipulate pods, deployments and service in the namespace dev
+- See the logs of the kubelet service
+- Upgrade the cluster to kubernetes 1.21 (master)
+- Upgrade the cluster to kubernetes 1.21 (workers)
+- Create a pod with a persisten volume of the type hostPath, using claims
+- Create a nginx pod with a service exposing the port 80 of the pod to the nodeport 32180
+- Install a ingress controller
+- Create an ingress host for the nginx pod/service
+- Configure a networkpolicy to allow only traffic from the ingress controller to the nginx pod
+- Configure a networkpolicy to block traffic out of an pod to the internet
 
 ## Other Materials
 
